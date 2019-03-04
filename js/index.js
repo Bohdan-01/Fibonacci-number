@@ -17,7 +17,9 @@ while (Number.isNaN(n2)) {
     n2 = parseFloat(prompt('Введіть номер числа Фібоначчі'));
 }    
 function fibLoop(n2) {
-  let a = 1, b = 1, f = 1;
+  let a = 1, 
+      b = 1, 
+      f = 1;
   for (let i = 3; i <= n2; i++) {
     f = a + b;
     a = b;
