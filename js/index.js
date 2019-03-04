@@ -10,12 +10,6 @@ function fibRec(n1) {
 }
 alert(fibRec(n1));
 
-//function fibRec(n1) {
-//  if (n1 <= 2) return 1;
-//  return fibRec(n1 - 1) + fibRec(n1 - 2);
-//}
-
-
 let n2 = parseFloat(prompt('Введіть номер числа Фібоначчі'));
 
 while (Number.isNaN(n2)) {
